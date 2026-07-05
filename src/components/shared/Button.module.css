@@ -1,0 +1,22 @@
+.btn {
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+    height: 40px;
+    width: auto;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(70, 35, 104);
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+
